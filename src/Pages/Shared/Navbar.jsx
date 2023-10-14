@@ -83,7 +83,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="container fixed mx-auto">
+        <nav className="container z-20 fixed mx-auto">
             <div className="container text-black mx-auto flex items-center justify-between flex-wrap">
                 <div className="flex items-center flex-shrink-0 mr-6">
                     <img src={Logo} alt="" />
